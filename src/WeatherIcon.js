@@ -53,7 +53,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "04d") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day.svg"
           alt="Overcast Day"
           height={props.height}
         />
@@ -61,7 +61,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "04n") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-night.svg"
           alt="Overcast Night"
           height={props.height}
         />
@@ -69,7 +69,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "09d") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/drizzle.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day-drizzle.svg"
           alt="Drizzle Day"
           height={props.height}
         />
@@ -77,7 +77,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "09n") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/drizzle.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-night-drizzle.svg"
           alt="Drizzle Night"
           height={props.height}
         />
@@ -85,7 +85,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "10d") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/rain.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day-rain.svg"
           alt="Rain Day"
           height={props.height}
         />
@@ -93,7 +93,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "10n") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/rain.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-night-rain.svg"
           alt="Rain Night"
           height={props.height}
         />
@@ -101,7 +101,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "11d") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/thunderstorms-extreme.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/thunderstorms-day.svg"
           alt="Thunderstorms Day"
           height={props.height}
         />
@@ -109,7 +109,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "11n") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/thunderstorms-extreme.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/thunderstorms-night.svg"
           alt="Thunderstorms Night"
           height={props.height}
         />
@@ -117,7 +117,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "13d") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/snow.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-day-snow.svg"
           alt="Snow Day"
           height={props.height}
         />
@@ -125,7 +125,7 @@ export default function WeatherIcon(props) {
     } else if (props.code === "13n") {
       return (
         <img
-          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/snow.svg"
+          src="https://bmcdn.nl/assets/weather-icons/v3.0/fill/svg/overcast-night-snow.svg"
           alt="Snow Night"
           height={props.height}
         />
